@@ -6,6 +6,7 @@ public class EmailValidation {
     public static final String EMAIL_FIRST="^[0-9a-zA-Z]*";
     public static final String EMAIL_DOMAIN= "^[0-9a-zA-Z]*[@][a-zA-Z]+$";
     public static final String EMAIL_DOT =  "^[0-9a-zA-Z]*[@][a-zA-Z]+[.][a-z]{2,4}$";
+    public static final String EMAIL_SPECIAL_CHARACTER =  "^[0-9a-zA-Z]+([_+-.a-z0-9A-Z]+)*[@][a-zA-Z]+[.][a-z]{2,4}$";
     public Boolean email1(String email1) {
         return (Pattern.matches(EMAIL_FIRST, email1));
         }
@@ -16,6 +17,12 @@ public class EmailValidation {
 
     public Boolean email3(String email3) {
         return (Pattern.matches(EMAIL_DOT, email3));
+    }
+
+    public Boolean email4(String email4) {
+        return (Pattern.matches(EMAIL_SPECIAL_CHARACTER, email4));
+
+
     }
 }
 
