@@ -7,20 +7,27 @@ import org.junit.jupiter.api.Test;
 
 public class SampleEmailsTest {
     @BeforeAll
-static void displayMsg(){
-    System.out.println("Welcome Sample Emails to Test");
+    static void displayMsg() {
+        System.out.println("Welcome Sample Emails to Test");
     }
+
     @AfterEach
-    public void afterMsgDisplay(){
+    public void afterMsgDisplay() {
         System.out.println("Passed");
     }
-    @Test
 
-void given_email_should_returnTrue(){
+    @Test
+    void given_email_should_returnTrue() {
         EmailValidation validation = new EmailValidation();
         Boolean result = validation.email1("abc");
         Assertions.assertEquals(result, true);
 
-}
+    }
+    @Test
+    void given_email1_should_returnTrue() {
+        EmailValidation validation = new EmailValidation();
+        Boolean result1 = validation.email2("abc@gmail");
+        Assertions.assertEquals(result1, true);
 
+    }
 }

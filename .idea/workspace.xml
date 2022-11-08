@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e6dce2d-95f3-476d-bbdf-cf24acb9d547" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/junit/EmailValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/junit/EmailValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/junit/EmailValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/brideglabz/junit/SampleEmailsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/brideglabz/junit/SampleEmailsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +41,12 @@
     "last_opened_file_path": "C:/Users/User/Desktop/210_RPF/JunitTest"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SampleEmailsTest">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.brideglabz.junit" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SampleEmailsTest.given_email1_should_returnTrue">
     <configuration name="SampleEmailsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SampleEmailsJunitTest1" />
       <extension name="coverage">
@@ -55,6 +58,22 @@
       <option name="PACKAGE_NAME" value="com.brideglabz.junit" />
       <option name="MAIN_CLASS_NAME" value="com.brideglabz.junit.SampleEmailsTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleEmailsTest.given_email1_should_returnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SampleEmailsJunitTest1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brideglabz.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.brideglabz.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.brideglabz.junit.SampleEmailsTest" />
+      <option name="METHOD_NAME" value="given_email1_should_returnTrue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -77,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SampleEmailsTest.given_email1_should_returnTrue" />
         <item itemvalue="JUnit.SampleEmailsTest" />
         <item itemvalue="JUnit.SampleEmailsTest.given_email_should_returnTrue" />
       </list>
