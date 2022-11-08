@@ -30,4 +30,11 @@ public class SampleEmailsTest {
         Assertions.assertEquals(result1, true);
 
     }
+    @Test
+    void given_email2_should_returnTrue() {
+        EmailValidation validation = new EmailValidation();
+        Boolean result2 = validation.email3("abc@gmail.com");
+        Assertions.assertEquals(result2, true);
+
+    }
 }
