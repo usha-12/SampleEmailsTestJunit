@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e6dce2d-95f3-476d-bbdf-cf24acb9d547" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brideglabz/junit/EmailValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brideglabz/junit/EmailValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/brideglabz/junit/SampleEmailsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/brideglabz/junit/SampleEmailsTest.java" afterDir="false" />
     </list>
@@ -46,7 +45,7 @@
       <recent name="com.brideglabz.junit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SampleEmailsTest.given_email1_should_returnTrue">
+  <component name="RunManager" selected="JUnit.SampleEmailsTest">
     <configuration name="SampleEmailsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SampleEmailsJunitTest1" />
       <extension name="coverage">
@@ -96,8 +95,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SampleEmailsTest.given_email1_should_returnTrue" />
         <item itemvalue="JUnit.SampleEmailsTest" />
+        <item itemvalue="JUnit.SampleEmailsTest.given_email1_should_returnTrue" />
         <item itemvalue="JUnit.SampleEmailsTest.given_email_should_returnTrue" />
       </list>
     </recent_temporary>
