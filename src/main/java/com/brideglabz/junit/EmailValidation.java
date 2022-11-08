@@ -7,6 +7,7 @@ public class EmailValidation {
     public static final String EMAIL_DOMAIN= "^[0-9a-zA-Z]*[@][a-zA-Z]+$";
     public static final String EMAIL_DOT =  "^[0-9a-zA-Z]*[@][a-zA-Z]+[.][a-z]{2,4}$";
     public static final String EMAIL_SPECIAL_CHARACTER =  "^[0-9a-zA-Z]+([_+-.a-z0-9A-Z]+)*[@][a-zA-Z]+[.][a-z]{2,4}$";
+    public static final String EMAIL_COUNTRY_CODE = "^[0-9a-zA-Z]+([_+-.a-z0-9A-Z]+)*[@][a-zA-Z]+[.][a-z]{2,4}([.][a-z]{2})?$";
     public Boolean email1(String email1) {
         return (Pattern.matches(EMAIL_FIRST, email1));
         }
@@ -23,6 +24,10 @@ public class EmailValidation {
         return (Pattern.matches(EMAIL_SPECIAL_CHARACTER, email4));
 
 
+    }
+
+    public Boolean email5(String email5) {
+        return (Pattern.matches(EMAIL_COUNTRY_CODE, email5));
     }
 }
 
